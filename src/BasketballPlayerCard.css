@@ -1,3 +1,7 @@
+body {
+  background-color: aqua;
+}
+
 .player-card {
     display: flex;
     flex-direction: column;
