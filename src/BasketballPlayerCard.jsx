@@ -3,8 +3,7 @@ import './BasketballPlayerCard.css';
 
 const BasketballPlayerCard = ({ name, image, position, stats }) => {
   const { pointsPerGame, assistsPerGame, reboundsPerGame } = stats;
-
-  return (
+  return ( 
     <div className="player-card">
       <img className="player-image" src={image} alt={`${name}'s portrait`} />
       <div className="player-info">
