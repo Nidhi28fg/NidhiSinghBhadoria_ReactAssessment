@@ -2,9 +2,23 @@ body {
   background-color: aqua;
 }
 
+
+@media (max-width: 768px) {
+  .player-card {
+    flex-direction: row; /* Change to row on smaller screens */
+    .player-image {
+      flex: 1; /* Allow image to shrink/grow proportionally */
+    }
+    .player-info {
+      flex: 2; /* Give more space to player info */
+    }
+  }
+}
+
+
 .player-card {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -13,9 +27,10 @@ body {
   }
   
   .player-image {
-    width: 100%;
-    height: 200px; /* Adjust height as needed */
+      max-width: 100%;
+    height: 300px;
     object-fit: cover;
+    border-radius: 50%;
   }
   
   .player-info {
@@ -25,6 +40,7 @@ body {
   .player-name {
     font-size: 1.2rem;
     margin-bottom: 5px;
+    border-top: 2px solid #888;
   }
   
   .player-position {
@@ -46,5 +62,6 @@ body {
   
   .stat-label {
     font-weight: bold;
+    border-top: 2px solid #888;
   }
   
