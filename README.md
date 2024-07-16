@@ -1,22 +1,4 @@
-Hello Sir,
+![image](https://github.com/user-attachments/assets/c709be72-cfed-470d-b1b8-a2db29a7ed47)
 
 
-frist i am create BasketballPlayerCard.jsx component. In this component,
- I have create a div which class name Player-card. then i have added img html within class-player-card. then below again i have 
- create a div which className - Player-info. in this div, i have added all info related to player. There are 3 section of this div.
- 1st section of h3, in this section i have added player name.
-  2nd section of p, in this section i have added player position.
-  last section of ul, in this section i have added info related to player starts.
-
-
-then i have create BasketballPlayerCard.css file. In this file, I have added lot of css proverty which help to give 
-basketballPlayerCard.jsx a unique style. body background-color is aqua.
-add @media (max-width: 768px), to create responsible website. also add flex properties, border,max-width, box- shadow and more properties. 
-
-in app,jsx i have add props which related to BasketballPlayerCard.jsx.
-
-
-I hope you like my Project.
-
-Thanks
-Nidhi Singh Bhadoria
+Hello Sir, I created the BasketballPlayerCard.jsx component. In this component, I created a div with the class name "Player-card." Then I added an img HTML element within the "class-player-card." Below that, I created another div with the class name "Player-info." In this div, I added all the information related to the player. There are three sections in this div. The first section is an h3 element, in which I added the player's name. The second section is a p element, in which I added the player's position. The last section is a ul element, in which I added information related to the player's stats. I then created the BasketballPlayerCard.css file. In this file, I added a lot of CSS properties to give the BasketballPlayerCard.jsx a unique style. The body background color is aqua. I added "@media (max-width: 768px)" to create a responsive website. I also added flex properties, borders, max-width, box shadows, and more properties. In app.jsx, I added props related to BasketballPlayerCard.jsx. I hope you like my project. Thanks, Nidhi Singh Bhadoria
