@@ -1,6 +1,7 @@
 import React from 'react';
 import './BasketballPlayerCard.css';
 
+
 const BasketballPlayerCard = ({ name, image, position, stats }) => {
   const { pointsPerGame, assistsPerGame, reboundsPerGame } = stats;
   return ( 
