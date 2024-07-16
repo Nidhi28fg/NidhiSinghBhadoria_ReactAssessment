@@ -5,12 +5,11 @@ body {
 
 @media (max-width: 768px) {
   .player-card {
-    flex-direction: row; /* Change to row on smaller screens */
+    flex-direction: row;
     .player-image {
-      flex: 1; /* Allow image to shrink/grow proportionally */
-    }
+      flex: 1;     }
     .player-info {
-      flex: 2; /* Give more space to player info */
+      flex: 2;
     }
   }
 }
